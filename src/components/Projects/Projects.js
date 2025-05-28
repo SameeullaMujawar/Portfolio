@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import th from "../../Assets/Projects/th (7).jpeg";
 import photo from "../../Assets/Projects/pictures-icon-png-14.jpg";
+import invent from "../../Assets/Projects/inventory_management_image50.webp";
 
 function Projects() {
   return (
@@ -36,7 +37,15 @@ function Projects() {
               ghLink="https://github.com/SameeullaMujawar/Photo-Gallery"
             />
           </Col>
-
+<Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={invent}
+              isBlog={false}
+              title="Inventory"
+              description="The Inventory Management System is a software solution designed to help businesses efficiently track, manage, and control inventory across one or multiple locations. It provides real-time visibility into stock levels, automates reordering processes, and reduces the risk of overstocking or stockouts."
+              ghLink="https://github.com/SameeullaMujawar/Inventory"
+            />
+          </Col>
 
           
         </Row>
