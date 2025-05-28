@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import th from "../../Assets/Projects/th (7).jpeg";
 import Picture1 from "../../Assets/Projects/Picture1.jpg";
+import photo from "../../Assets/Projects/pictures-icon-png-14.jpg";
 
 function Projects() {
   return (
@@ -49,7 +50,15 @@ function Projects() {
               ghLink="https://github.com/SameeullaMujawar/Todo"
             />
           </Col>
-
+<Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={photo}
+              isBlog={false}
+              title="Photo Gallery"
+              description="This project includes full-stack development, deployment, and testing of a scalable photo gallery platform."
+              ghLink="https://github.com/SameeullaMujawar/Photo-Gallery"
+            />
+          </Col>
 
 
           
