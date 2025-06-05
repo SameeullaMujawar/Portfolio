@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import th from "../../Assets/Projects/th (7).jpeg";
 import photo from "../../Assets/Projects/pictures-icon-png-14.jpg";
 import invent from "../../Assets/Projects/inventory_management_image50.webp";
+import pets from "../../Assets/Projects/group-happy-pets-cats-dogs-walking-together-green-grass-meadow-ai-generated-image_595532-4228.avif";
 
 function Projects() {
   return (
@@ -47,7 +48,15 @@ function Projects() {
             />
           </Col>
 
-          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pets}
+              isBlog={false}
+              title="Paw-City🐾"
+              description="The Pet-Friendly City Campaign is a grassroots movement dedicated to transforming urban spaces into safe, inclusive, and joyful environments for our furry friends and their humans. From Stray to Stay—Together We Make a Difference!🐾✨"
+              ghLink="https://github.com/SameeullaMujawar/Paw-City-"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
